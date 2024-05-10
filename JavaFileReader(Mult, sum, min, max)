@@ -17,10 +17,10 @@ public class Main {
             for (String s : inputArray) {
                 result.add(Integer.parseInt(s));
             }
-            System.out.println(_min(result));
-            System.out.println(_max(result));
-            System.out.println(_sum(result));
-            System.out.println(_mult(result));
+            System.out.println("Минимальное значение: " + _min(result));
+            System.out.println("Максимальное значение: " + _max(result));
+            System.out.println("Сумма чисел в файле: " + _sum(result));
+            System.out.println("Произведение чисел в файле: " + _mult(result));
         } catch (IOException e) {
             e.printStackTrace();
         }
