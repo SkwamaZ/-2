@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.MainTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-05-11T22:46:58" hostname="DESKTOP-290QULK" time="33.563">
+  <properties/>
+  <testcase name="Test100000()" classname="org.example.MainTest" time="1.178"/>
+  <testcase name="Test1000()" classname="org.example.MainTest" time="0.002"/>
+  <testcase name="_max()" classname="org.example.MainTest" time="0.004"/>
+  <testcase name="_min()" classname="org.example.MainTest" time="0.001"/>
+  <testcase name="_sum()" classname="org.example.MainTest" time="0.002"/>
+  <testcase name="_mult()" classname="org.example.MainTest" time="0.003"/>
+  <testcase name="Test100()" classname="org.example.MainTest" time="0.002"/>
+  <testcase name="TestOfQuicksort()" classname="org.example.MainTest" time="0.001"/>
+  <testcase name="Test1000000()" classname="org.example.MainTest" time="32.363"/>
+  <system-out><![CDATA[Р’СЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ:1161
+Р’СЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ:2
+Р’СЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ:1
+Р’СЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ:32361
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
