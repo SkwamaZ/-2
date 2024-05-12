@@ -18,6 +18,4 @@ jobs:
           distribution: 'adopt'
       
       - name: Build with Gradle
-        run: |
-          chmod +x ./gradlew
-          ./TechProgTZ2/gradlew build
+        run: ./gradlew build
