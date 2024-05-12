@@ -19,4 +19,4 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./TechProgTZ2/gradlew
       - name: Build with Gradle
-        run: ./TechProgTZ2/gradlew build
+        run: ./TechProgTZ2/gradlew -p ./TechProgTZ2 build
