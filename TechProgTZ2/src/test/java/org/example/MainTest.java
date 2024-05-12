@@ -29,31 +29,31 @@ public class MainTest {
     @Test
     void _sum() throws IOException {
         Main main = new Main();
-        ArrayList<Integer> testoviList = read("C:\\TestsJava\\testsum.txt");
+        ArrayList<Integer> testoviList = read("TestsJava/testsum.txt");
         assertEquals(11175, Main._sum(testoviList));
     }
     @Test
     void _mult() throws IOException {
         Main main = new Main();
-        ArrayList<Integer> testoviList = read("C:\\TestsJava\\testmult.txt");
+        ArrayList<Integer> testoviList = read("TestsJava/testmult.txt");
         assertEquals(BigInteger.valueOf(479001600), Main._mult(testoviList));
     }
     @Test
     void _max() throws IOException {
         Main main = new Main();
-        ArrayList<Integer> testoviList = read("C:\\TestsJava\\testmax.txt");
+        ArrayList<Integer> testoviList = read("TestsJava/testmax.txt");
         assertEquals(298, Main._max(testoviList));
     }
     @Test
     void _min() throws IOException {
         Main main = new Main();
-        ArrayList<Integer> testoviList = read("C:\\TestsJava\\testmin.txt");
+        ArrayList<Integer> testoviList = read("TestsJava/testmin.txt");
         assertEquals(-97, Main._min(testoviList));
     }
     @Test
     void TestOfQuicksort() throws IOException {
         Main main = new Main();
-        ArrayList<Integer> testoviList = read("C:\\TestsJava\\testquicksort.txt");
+        ArrayList<Integer> testoviList = read("TestsJava/testquicksort.txt");
         ArrayList<Integer> norm = new ArrayList<Integer>();
         norm.add(-6); norm.add(-5); norm.add(-4); norm.add(-3); norm.add(-2); norm.add(-1); norm.add(0); norm.add(1); norm.add(1); norm.add(2); norm.add(2);
         norm.add(3); norm.add(3); norm.add(4); norm.add(4); norm.add(5); norm.add(6); norm.add(7); norm.add(8); norm.add(9); norm.add(10); norm.add(11);
@@ -63,7 +63,7 @@ public class MainTest {
     void Test100() throws IOException {
         Instant start = Instant.now();
         Main main = new Main();
-        ArrayList<Integer> testoviList = read("C:\\TestsJava\\test100.txt");
+        ArrayList<Integer> testoviList = read("TestsJava/test100.txt");
         Main._sum(testoviList);
         Main._max(testoviList);
         Main._min(testoviList);
@@ -76,7 +76,7 @@ public class MainTest {
     void Test1000() throws IOException {
         Instant start = Instant.now();
         Main main = new Main();
-        ArrayList<Integer> testoviList = read("C:\\TestsJava\\test1000.txt");
+        ArrayList<Integer> testoviList = read("TestsJava/test1000.txt");
         Main._sum(testoviList);
         Main._max(testoviList);
         Main._min(testoviList);
@@ -89,7 +89,7 @@ public class MainTest {
     void Test100000() throws IOException {
         Instant start = Instant.now();
         Main main = new Main();
-        ArrayList<Integer> testoviList = read("C:\\TestsJava\\test100000.txt");
+        ArrayList<Integer> testoviList = read("TestsJava/test100000.txt");
         Main._sum(testoviList);
         Main._max(testoviList);
         Main._min(testoviList);
@@ -102,7 +102,7 @@ public class MainTest {
     void Test1000000() throws IOException {
         Instant start = Instant.now();
         Main main = new Main();
-        ArrayList<Integer> testoviList = read("C:\\TestsJava\\test1000000.txt");
+        ArrayList<Integer> testoviList = read("TestsJava/test1000000.txt");
         Main._sum(testoviList);
         Main._max(testoviList);
         Main._min(testoviList);
