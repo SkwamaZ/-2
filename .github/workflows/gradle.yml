@@ -42,7 +42,7 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message: |
-            Полный кайф!
+            Тесты выполнены успешно
             *Repository*: ${{ github.repository }}
             *Actor*: ${{ github.actor }}
             *Commit*: ${{ github.sha }}
