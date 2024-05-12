@@ -16,6 +16,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
-      
+      - name: Make gradlew executable
+        run: chmod +x ./TechProgTZ2/gradlew
       - name: Build with Gradle
         run: ./TechProgTZ2/gradlew build
